@@ -38,7 +38,7 @@ export default function HomePage() {
     };
 
     try {
-      const res = await fetch('http://localhost:3000/api/products/register', {
+      const res = await fetch('/api/products/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
